@@ -10,8 +10,11 @@
 
   <title>Jalical Mining</title>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
@@ -21,39 +24,95 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Other Pages
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+  <div class="nav_container fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark d-flex align-items-start">
+    <a class="navbar-brand" href="#">JalisMinc</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li id="navrbar_li_element" class="nav-item dropdown d-flex justify-content-start flex-column ">
+          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Focus
+          </a>
+
+            <div class="dropdown_content ">
+
+
+                <a class="dropdown-item" href="#">Our Company</a>
+                <a class="dropdown-item" href="#">Conduct Code</a>
+                <a class="dropdown-item" href="#">Our History</a>
+                <a class="dropdown-item" href="#">Join us</a>
+
             </div>
-          </li>
-        </ul>
-      </div>
+
+        </li>
+
+        <li id="navrbar_li_element" class="nav-item dropdown d-flex justify-content-start flex-column ">
+          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Bussines
+          </a>
+
+            <div class="dropdown_content">
+              <a class="dropdown-item" href="#">Minerals Australia</a>
+              <a class="dropdown-item" href="#">Minerals Americas</a>
+
+              <a class="dropdown-item" href="#">Marketing</a>
+            </div>
+
+        </li>
+        <li id="navrbar_li_element" class="nav-item dropdown d-flex justify-content-start flex-column ">
+          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Community
+          </a>
+
+            <div class="dropdown_content">
+              <a class="dropdown-item" href="#">Community</a>
+
+            </div>
+
+        </li>
+
+        <li id="navrbar_li_element" class="nav-item dropdown d-flex justify-content-start flex-column ">
+          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Environment
+          </a>
+
+            <div class="dropdown_content">
+              <a class="dropdown-item" href="#">Environment</a>
+
+            </div>
+
+        </li>
+
+        <li id="navrbar_li_element" class="nav-item dropdown d-flex justify-content-start flex-column ">
+          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact us
+          </a>
+
+            <div class="dropdown_content">
+              <a class="dropdown-item" href="#">Contact</a>
+
+            </div>
+
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0 align-self-start">
+
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
     </div>
+    <a class="ml-2 d-flex language_button" href=""><i class="mr-1 fa fa-globe"></i> EN</a>
   </nav>
+  </div>
+
+
 
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
