@@ -22,6 +22,8 @@ body{
 
 .navbar{
   transition: height 2s;
+  color: white;
+  font-weight: bold;
 }
 
 .dropdown:hover > .navbar{
@@ -51,4 +53,20 @@ body{
 
 .dropdown:hover{
   height: 200px;
+}
+
+.fa-globe{
+  color: white;
+  font-size: 24px;
+}
+
+.language_button{
+  color: white;
+  text-decoration: none;
+}
+
+.language_button:hover{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
