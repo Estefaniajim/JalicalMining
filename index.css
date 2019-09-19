@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0 !important;
+
+}
+
+.dropdown_content_item{
+  display: none;
+}
+
+.dropdown_content{
+  display: none;
+}
+
+.dropdown:hover > .dropdown_content{
+  display: block;
+}
+
+.dropdown:hover > .dropdown_content_item{
+  display: block;
+}
+
+.navbar{
+  transition: height 2s;
+}
+
+.dropdown:hover > .navbar{
+  height: 200px;
+}
+
+
+.dropdown{
+  transition: all 2s linear 1s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+
+}
+
+.nav-item a{
+  color: white;
+}
+
+
+
+
+.dropdown-item{
+  color: white;
+}
+
+
+
+.dropdown:hover{
+  height: 200px;
+}
